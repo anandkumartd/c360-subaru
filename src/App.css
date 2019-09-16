@@ -104,8 +104,8 @@ height:100%;
 }
 .searchbar .SearchBar-root-1{
   margin: 0px auto;
-  width: 500px;
-  display: inline-block;
+  width: 500px !important;
+  display: inline-block !important;
 }
 .searchbar .SearchBar-iconButton-2{
   display:none;
