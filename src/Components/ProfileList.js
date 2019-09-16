@@ -77,7 +77,7 @@ console.log(profiles);
     //   return <div>Loading...</div>;
     // }
 var search = <SearchBar
-style={{ marginBottom: '100px', maxWidth: '500px', margin:'0px auto', display:'inline-block' }}
+style={{ marginBottom: '100px', maxWidth: '500px', margin:'0px auto' }}
 value={this.state.value}
 onChange={newValue => this.setState({ value: newValue })}
 onRequestSearch={() => this.fetchData(this.state.value)}

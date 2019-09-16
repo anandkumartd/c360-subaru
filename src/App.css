@@ -102,12 +102,12 @@ height:100%;
   margin: 0px auto;
   text-align: center;
 }
-.searchbar .SearchBar-root-1{
+.searchbar .SearchBar-root-1, .searchbar .MuiPaper-elevation1.jss1.MuiPaper-rounded{
   margin: 0px auto;
   width: 500px !important;
   display: inline-block !important;
 }
-.searchbar .SearchBar-iconButton-2{
+.searchbar .SearchBar-iconButton-2, .searchbar .MuiButtonBase-root.jss2.jss3 ,.searchbar .MuiButtonBase-root.jss2.jss5{ 
   display:none;
 }
 .searchbar .MuiButton-containedPrimary{
