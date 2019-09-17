@@ -12,6 +12,8 @@ import {
     });
   
     var parser = new Parser();
+    // heroku CORS proxy URL
+  proxyURL = proxyURL+"https://cors-anywhere.herokuapp.com/";
 axios.defaults.baseURL = "https://api-staging-cdp.treasuredata.com"; 
 axios.defaults.headers.common["Authorization"] =
 "TD1 1199/ca445d86e9cbd277d798cd4ee23849d230e42745";
