@@ -194,6 +194,14 @@ height:100%;
    .gridWrapper .MuiGrid-container{
      display:block !important;
    }
+   .gridWrapper.dealership .tableSec.MuiGrid-grid-xs-12{
+     display:block !important;
+     flex:none !important;
+     width:auto !important;
+   }
+   .gridWrapper.dealership .tableSec.MuiGrid-grid-xs-12 .div-body{
+     width:auto !important;
+   }
    
 }
 

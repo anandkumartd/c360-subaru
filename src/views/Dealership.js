@@ -14,9 +14,9 @@ class Dealership extends Component {
  
     return (
     
-      <div class="gridWrapper" style={{ height: "auto", marginBottom:"20px" }}>
+      <div class="gridWrapper dealership" style={{ height: "auto", marginBottom:"20px" }}>
       <Grid container spacing={1} style={{ height: "auto" }}>
-        <Grid item xs={12} style={{ display: "flex", flex: "1" }}>
+        <Grid item xs={12} className={"tableSec"} style={{ display: "flex", flex: "1" }}>
        <HeatTableCard profile={profile} />
         </Grid>
         
