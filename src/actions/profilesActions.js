@@ -12,8 +12,9 @@ export const fetchProfiles = () => dispatch => {
   });
 
   var parser = new Parser();
-  // heroku CORS proxy URL
-  proxyURL = "https://cors-anywhere.herokuapp.com/";
+  // proxy url to be used for removing CORS errors
+  var proxyURL = "https://cors-anywhere.herokuapp.com/"
+  //axios.defaults.proxy.host = "https://cors-anywhere.herokuapp.com/";
   axios.defaults.baseURL = proxyURL+"https://api-staging-cdp.treasuredata.com"; 
 axios.defaults.headers.common["Authorization"] =
 "TD1 1199/ca445d86e9cbd277d798cd4ee23849d230e42745";
